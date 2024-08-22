@@ -13,8 +13,86 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome link -->
+    <script
+      src="https://kit.fontawesome.com/fc805632a7.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Font Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
   </head>
-  <body>
-    <h1 class="">Hello Bangladesh</h1>
+  <body class="bg-white h-[2000px] text-black font-manrope">
+    <header>
+      <div class="navbar p-8">
+        <div class="navbar-start">
+          <a class="btn btn-ghost text-3xl"
+            ><i
+              class="fa-solid fa-square-arrow-up-right text-3xl text-lime-400 font-bold"
+            ></i>
+            Rinterio</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex text-xl">
+          <ul class="menu menu-horizontal px-1 text-xl font-semibold">
+            <li class="font-black"><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact US</a></li>
+            <li>
+              <a><i class="fa-solid fa-magnifying-glass mt-1"></i></a>
+            </li>
+            <li>
+              <a><i class="fa-solid fa-cart-shopping mt-1"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a
+            class="btn lg:visible invisible bg-lime-400 text-black border-none text-xl rounded-full font-bold"
+            >Book Consult
+            <i class="fa-solid fa-square-arrow-up-right text-2xl"></i
+          ></a>
+        </div>
+        <div class="dropdown">
+          <div
+            tabindex="0"
+            role="button"
+            class="btn lg:hidden bg-white border-none text-black"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content"></ul>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
   </body>
 </html>
