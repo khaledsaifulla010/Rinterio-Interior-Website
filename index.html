@@ -34,7 +34,7 @@
       }
     </style>
   </head>
-  <body class="bg-white h-[6000px] text-black font-manrope">
+  <body class="bg-white lg:h-[3500px] h-[6000px] text-black font-manrope">
     <header>
       <!-- Navbar Start -->
       <div class="navbar p-8">
@@ -345,10 +345,10 @@
             </div>
           </div>
           <!-- login form -->
-          <div class="lg:flex items-center gap-4 lg:-mt-36 -mt-28 grid">
+          <div class="lg:flex lg:items-center gap-4 lg:-mt-36 -mt-28 grid">
             <input
-              class="w-[400px] h-12 p-4 rounded-full bg-slate-50 border-slate-200 border-2 font-extrabold"
               type="text"
+              class="w-[400px] h-12 p-4 rounded-full bg-slate-50 border-slate-200 border-2 font-extrabold"
               placeholder="First Name*"
             />
             <input
@@ -363,30 +363,71 @@
               name="number"
               id="number"
               class="w-[400px] h-12 p-4 rounded-full bg-slate-50 border-slate-200 border-2 font-extrabold"
-              type="text"
               placeholder="Phone Number*"
             />
             <input
               type="email"
               name="email"
               id="email"
-              required
               class="w-[400px] h-12 p-4 rounded-full bg-slate-50 border-slate-200 border-2 font-extrabold"
-              type="text"
               placeholder="Email Number*"
             />
           </div>
           <div>
-            <textarea name="" id="" class="lg:mt-80 lg:w-[805px] w-[400px] mt-[400px] lg:h-[200px] rounded-xl bg-slate-50 border-slate-200 border-2 font-extrabold p-4 text-slate-400">Write your message here</textarea placeholder>
+            <textarea
+              name=""
+              id=""
+              class="lg:mt-80 lg:w-[805px] w-[400px] mt-[400px] lg:h-[200px] rounded-xl bg-slate-50 border-slate-200 border-2 font-extrabold p-4 text-slate-400"
+            >
+Write your message here</textarea
+            >
           </div>
-           <a
-          class="p-2 lg:w-[805px] w-[400px] lg:mt-[600px] mt-[550px] bg-lime-400 text-black border-none text-xl rounded-full font-extrabold text-center"
-          >Send Mail
-          <i class="fa-solid fa-square-arrow-up-right text-2xl"></i
-        ></a>
+          <a
+            class="p-2 lg:w-[805px] w-[400px] lg:mt-[600px] mt-[550px] bg-lime-400 text-black border-none text-xl rounded-full font-extrabold text-center"
+            >Send Mail <i class="fa-solid fa-square-arrow-up-right text-2xl"></i
+          ></a>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="bg-black">
+      <div class="mb-8 lg:ml-[650px] ml-[200px] lg:mt-0.5 mt-1 p-10">
+        <btn class="text-white text-4xl font-extrabold"
+          ><i
+            class="fa-solid fa-square-arrow-up-right text-3xl text-lime-400 font-extrabold"
+          ></i>
+          Rinterio</btn
+        >
+      </div>
+      <p
+        class="lg:text-xl text-center text-white -mt-16 lg:ml-48 ml-12 lg:mr-48 mr-12"
+      >
+        Rinterio is a premier interior design website, offering innovative
+        solutions, expert advice, and showcasing stunning residential and
+        commercial spaces.
+      </p>
+      <div class="lg:ml-[450px] ml-[50px] lg:flex text-xl text-white">
+        <ul
+          class="lg:flex lg:ml-0 -ml-[60px] text-center px-1 lg:text-xl text-2xl font-extrabold lg:space-x-10 mt-8 lg:space-y-0 space-y-4"
+        >
+          <li><a>Home</a></li>
+          <li><a>Services</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Blogs</a></li>
+          <li><a>Contact US</a></li>
+        </ul>
+      </div>
+      <div class="lg:ml-[660px] ml-[230px] mb-36 lg:mt-8 mt-10">
+        <a
+          class="p-2 bg-lime-400 border-none text-xl rounded-full font-extrabold"
+          >Book Consult
+          <i
+            class="fa-solid fa-square-arrow-up-right text-2xl mt-4 text-black"
+          ></i
+        ></a>
+        <p class="text-white mt-8 lg:-ml-20 -ml-[82px]">
+          &copy;All Rights Reserved Rinterio Company Ltd.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
